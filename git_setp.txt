@@ -1,0 +1,16 @@
+$#yum install git -y
+$#git config --global user.name “shrinidhibhat”
+$#git config --global user.email "shrinidhi.bhat@colorado.edu"
+$#ssh-keygen -t rsa -C "shrinidhi.bhat@colorado.edu"
+
+file is created /root/.ssh/id_rsa
+
+$#ssh -T git@github.com -i ~/.ssh/id_rsa
+$#eval `ssh-agent`
+$#ssh-add ~/.ssh/id_rsa
+$#cp /scapy_catch_try.py /home/Capstone
+$#pwd
+/home/Capstone
+$#git add .
+$#git commit -m "first commit"
+$#git push
